@@ -44,10 +44,10 @@ prepare_host()
 		        gcc gcc-i686-linux-gnu automake make curl binfmt-support flex whiptail \
 		        lib32z1 lib32z1-dev bison gettext pkg-config xz-utils mount \
 		        figlet dosfstools libncurses5-dev debootstrap binutils binutils-i686-linux-gnu \
-		        swig libpython2.7-dev libssl-dev python2-minimal autopoint gettext \
+		        swig libssl-dev autopoint gettext python3 \
 		        dos2unix libc6:arm64 libssl-dev build-essential gcc-multilib-i686-linux-gnu \
 		        libncurses-dev bison libssl-dev libelf-dev gdisk parted \
-		        libssl-dev:arm64 libssl3:arm64 python-dev libxml2-dev \
+		        libssl-dev:arm64 libssl3:arm64 libxml2-dev \
 		        libxslt-dev libpython3.11-dev:arm64 device-tree-compiler \
 		        mkbootimg libunwind8 libunwind8:arm64 libc6-dev libc6-dev:arm64 \
 		        libgcc-12-dev-arm64-cross debootstrap qemu-user-static rsync \
