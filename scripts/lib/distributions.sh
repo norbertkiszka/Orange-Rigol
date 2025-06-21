@@ -16,7 +16,7 @@ deboostrap_rootfs() {
 
 	# this is updated very seldom, so is ok to hardcode
 	#debian_archive_keyring_deb="${SOURCES}/pool/main/d/debian-archive-keyring/debian-archive-keyring_2019.1_all.deb"
-	debian_archive_keyring_deb="http://ftp.de.debian.org/debian/pool/main/d/debian-archive-keyring/debian-archive-keyring_2023.4_all.deb"
+	debian_archive_keyring_deb="http://ftp.de.debian.org/debian/pool/main/d/debian-archive-keyring/debian-archive-keyring_2025.1_all.deb"
 	[ "${OS}" == "ubuntu" ] && debian_archive_keyring_deb="http://archive.ubuntu.com/ubuntu/pool/main/u/ubuntu-keyring/ubuntu-keyring_2023.11.28.1_all.deb"
 	wget -O keyring.deb "$debian_archive_keyring_deb"
 	ar -x keyring.deb && rm -f control.tar.gz debian-binary && rm -f keyring.deb
